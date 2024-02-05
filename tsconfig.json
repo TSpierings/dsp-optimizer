@@ -2,6 +2,9 @@
   "compilerOptions": {
     "target": "es5",
     "lib": [
+      "webworker",
+      "es5",
+      "scripthost",
       "dom",
       "dom.iterable",
       "esnext"

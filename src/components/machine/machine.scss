@@ -1,0 +1,30 @@
+.machine {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  
+  span {
+    margin-left: 0.25rem;
+    overflow: hidden;
+    text-wrap: nowrap;
+    max-width: 100px;
+  }
+
+  &.logistic {
+    background-color: lightcoral;
+  }
+
+  &.highlighted {
+    background-color: antiquewhite;
+  }
+
+  &.producer {
+    background-color: aquamarine;
+  }
+
+  &.dummy {
+    background-color: white;
+    color: white;
+  }
+
+}
